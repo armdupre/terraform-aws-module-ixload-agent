@@ -1,5 +1,5 @@
 variable "AmiName" {
-	default = "Ixia_Virtual_Test_Appliance_10.00.0.140_KVM BYOL-3e9c119e-a0f5-41f8-b5ee-783c2a78162f"
+	default = "Ixia_Virtual_Test_Appliance_10.40.0.75-3e9c119e-a0f5-41f8-b5ee-783c2a78162f"
 	description = "AMI name used for deploying instances"
 	type = string
 }
@@ -134,7 +134,7 @@ variable "UserProjectTag" {
 }
 
 variable "Version" {
-	default = "10-00"
+	default = "10-40"
 	description = "Versioning of the application using the deployment"
 	type = string
 }
